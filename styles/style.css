@@ -6,120 +6,97 @@ background-color: #282828;
 color: rgb(252, 246, 246);
 font-size: 25px;
 margin-top: 50px;
-display: inline;
+display: flex;
+top: 100px;
   }
 
   .resim{
-display: inline;
+display: block;
 margin-top: 50px;
+left: 40px;
 
 
   }
 .resim2{
+  position: absolute;
 margin-top: 40px;
-  width: 899px;
+width: 899px;
 height: 568px;
 top: 315px;
 
 }
 
-
-
-.home{
-  font: poppins;
-  font-weight: 400;
-  size: 20px;
-line-height: 30px;
+.nav-el1{
+  display: flex;
+ position: absolute;
+ right: 600px;
+ top: 110px;
+ 
 }
-.buton2{
-  right: 150px;
-  margin-top: 35px;
-  margin-right: 800px;
-  display: inline;
+.nav-el2{
+  display: flex;
+  position: absolute;
+  right: 500px;
+  top: 110px;
 }
-.buton3{
-
-  margin-right: 900px;
-  display: inline;
-
-
+.nav-el3{
+display: flex;
+position: absolute;
+right: 400px;
+top: 110px;
 }
-.contact{
-
-  background-color: transparent;
+.nav-el4{
+  display: flex;
+  position: absolute;
+right: 300px;
+top: 110px;
+}
+.nav-el5{
   border: 1px solid #FE6839;
- font-size: 20px;
-  color: #F9F9F9;
-  padding: 20px 30px 20px 30px;
-  gap: 10px;
-  width: 191px;
-  height: 70px;
-  border-radius: 30px;
-  cursor: pointer;
+padding: 20px;
+border-radius: 100px;
+display: flex;
+position: absolute;
+right: 100px;
+top: 90px;
+}
+.icon{
+  position: absolute;
+  right: 670px;
+  top: 115px;
+}
+.paragraf{
+display: flex;
+position: absolute;
+left: 1100px;
+top: 300px;
+width: 723.95px;
+height: 142px;
+font-weight: 600;
+font-size: 58.93px;
+line-height: 70.71px;
 
 
 }
-.home1{
-background-color: transparent;
-  color: #F9F9F9;
- font-weight: poppins;
- size: 20px;
- line-height: 30px;
- width: 60px;
- height: 30px;
- top: 20ox;
- left: 31px;
- border: none;
- cursor: pointer;
-}
-.ab1{
-background-color: transparent;
-color: #F9F9F9;
-  width: 60px;
-  height: 30px;
-  opacity: 70%;
-  font: poppins;
-  font-weight: 400;
-  size: 20px;
-  line-height: 30px;
-  border: none;
-  cursor: pointer;
-}
-.cor1{
+.paragraf2{
 
-  background-color: transparent;
-  color: #F9F9F9;
-  width: 72px;
-  height: 30px;
-  opacity: 70%;
-  font-style: oblique;
-  font-weight: 400;
-  size: 20px;
-  line-height: 30px;
-  border: none;
-  cursor: pointer;
-}
-.pod1{
-background-color: transparent;
-color: #F9F9F9;
-width: 82px;
-height: 30px;
-opacity: 70%;
-font-style: normal;
+display: flex;
+position: absolute;
+width: 382px;
+height: 90px;
 font-weight: 400;
-size: 20px;
+size: 18px;
 line-height: 30px;
-border: none;
-cursor: pointer;
+right: 400px;
+top: 500px;
 }
-.yazi1{
-
-  width: 723.95px;
-  height: 142px;
-  font-weight: 600;
-  size: 58.93px;
-  line-height: 70.71px;
-left: 1092px;
-gap: 32px;
-
+.button-now{
+  display: flex;
+  position: absolute;
+  right: 610px;
+  top: 650px;
+  border: 1px solid #FE6839;
+  padding: 20px;
+ border-radius: 100px;
+ 
 }
