@@ -1,7 +1,8 @@
 
   body{
-
-
+    height: 100%;
+    width: 100%;
+    margin: 0;
 background-color: #282828;
 color: rgb(252, 246, 246);
 font-size: 25px;
@@ -23,6 +24,7 @@ margin-top: 40px;
 width: 899px;
 height: 568px;
 top: 315px;
+opacity: 0.7;
 
 }
 
@@ -99,4 +101,43 @@ top: 500px;
   padding: 20px;
  border-radius: 100px;
  
+}
+.image-blur{
+  display: flex;
+  position: absolute;
+  width: 196px;
+  height: 432px;
+  top: 250px;
+  left: -300px;
+  border-radius: 10px;
+  motion-rotation: -90 deg;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+opacity: 1;
+}
+.vector{
+  display: flex;
+  position: absolute;
+  width: 186.75px;
+  height: 1086px;
+  left: 771px;
+  border: none solid #FE6839;
+  top: 1px;
+  
+}
+.blur2{
+  display: flex;
+  position: absolute;
+  box-shadow: 2.8px 2.8px 5.6px 0px rgba(255, 255, 255, 0.7) inset;
+
+  box-shadow: -2.8px -2.8px 5.6px 0px rgba(0, 0, 0, 0.1) inset;
+  width: 219px;
+  height: 227px;
+  top: 759px;
+  left: 784px;
+  border-radius: 140.11px;
+  opacity: 1;
+  
+
+
 }
