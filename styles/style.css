@@ -10,7 +10,7 @@
 
 .strategies-section .sayi{
   display: block;
-  font-family: "Poppins";
+  font-family: "Poppins" sans-serif;
   font-weight: 500;
   font-size: 30px;
   line-height: 45Px;
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin-left: 250px;
+  margin-inline: auto;
   margin-top: 118px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .strategies-section .description{
-  font-family: "Poppnis";
+  font-family: "Poppins" sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -80,11 +80,6 @@
   align-items: center;
   font-size: 20px;
   align-self: flex-start;
-  font-family: "Poppins";
+  font-family: "Poppins" sans-serif;
   
-}
-
-.strategies-section .button-icon{
-
-
 }
