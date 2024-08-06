@@ -3,21 +3,24 @@
   padding: 0;
   box-sizing: 0;
 }
-.aboutone{
+
+.aboutus-section .aboutone {
   display: flex;
   width: 1900px;
   height: 355px;
   background-color: #EAEAEA;
   font-family: "Syne", sans-serif;
 }
-.container{
+
+.aboutus-section .container {
   display: flex;
-  justify-content: center; 
-  align-items: center;    
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   font-family: "Syne", sans-serif;
 }
-.item2{
+
+.aboutus-section .item2 {
   width: 300px;
   height: 300px;
   background-color: #EAEAEA;
@@ -27,23 +30,25 @@
   border-radius: 15px;
 }
 
-.item{
+.aboutus-section .item {
   width: 424px;
   height: 474px;
   margin: 22px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   border-radius: 15px;
 }
-#button{
+
+.aboutus-section .button {
   width: 160px;
   height: 60px;
   border-radius: 30px;
   background: none;
-  font-size: 17px;  
+  font-size: 17px;
   border: 1px solid #282828;
 }
-#button2{
+
+.aboutus-section .button2 {
   width: 160px;
   height: 60px;
   margin-left: 40px;
@@ -53,7 +58,8 @@
   border: 1px solid #282828;
   background: none;
 }
-#button3{
+
+.aboutus-section .button3 {
   position: absolute;
   width: 160px;
   height: 60px;
@@ -65,7 +71,8 @@
   border-radius: 30px;
   background: none;
 }
-#button4{
+
+.aboutus-section .button4 {
   position: absolute;
   width: 160px;
   height: 60px;
@@ -77,16 +84,19 @@
   border-radius: 30px;
   background: none;
 }
-#about{
+
+.aboutus-section .about {
   margin-top: 35px;
   margin-left: 100px;
   color: #9e9898;
 }
-#title{
+
+.aboutus-section .title {
   margin-top: 30px;
   color: #282828;
 }
-#titletwo{
+
+.aboutus-section .titletwo {
   margin-top: 40px;
   margin-left: 50px;
   font-size: 30px;
@@ -94,91 +104,99 @@
   height: 167px;
   color: #282828;
 }
-#titlethere{
+
+.aboutus-section .titlethere {
   position: absolute;
   width: 300px;
   margin-top: 250px;
   font-size: 35px;
 }
-#titlefour{
+
+.aboutus-section .titlefour {
   position: absolute;
   width: 300px;
   margin-top: 50px;
   font-size: 35px;
   color: #ffff;
 }
-#lasttext{
-  margin-left: 500px;
-}
-#cizgi{
+
+.aboutus-section .cizgi {
   border: 1px solid gray;
   margin-top: 35px;
   width: 284px;
 }
-#cizgi2{
+
+.aboutus-section .cizgi2 {
   position: absolute;
   height: 100px;
   border: 1px solid #ffff;
   margin-top: 160px;
   margin-right: 300px;
 }
-#divtwo{
+
+.aboutus-section .div-two {
   width: 900px;
   font-size: 30px;
 }
-#divthere{
+
+.aboutus-section .div-there {
   margin-left: 260px;
 }
-#divfour{
-  background-color:#EAEAEA
-}
-#divfive{
-  background-color:#FE6839
+
+.aboutus-section .div-left {
+  background-color: #EAEAEA
 }
 
-#divfoto{
+.aboutus-section .div-middle {
+  background-color: #FE6839
+}
+
+.aboutus-section .divfoto {
   width: 106px;
   height: 106px;
   margin-top: 150px;
 }
-#divfoto2{
+
+.aboutus-section .divfoto2 {
   width: 400px;
   height: 280px;
   margin-top: 100px;
   margin-left: -20px;
 }
-#divfoto3{
+
+.aboutus-section .divfoto3 {
   width: 78px;
   height: 78px;
   position: absolute;
   margin-top: 50px;
   margin-right: 270px;
 }
-#divfoto4{
+
+.aboutus-section .divfoto4 {
   margin-left: 20px;
 }
-#divfoto5{
+
+.aboutus-section .divfoto5 {
   border-radius: 15px;
 }
-#divfoto6{
+
+.aboutus-section .divfoto6 {
   position: absolute;
   border-radius: 15px;
 }
-#backfoto {
+
+.aboutus-section .backfoto {
   position: absolute;
   top: 355px;
   left: 0px;
   width: 470px;
   z-index: -2;
 }
-#backfoto2 {
+
+.aboutus-section .backfoto2 {
   position: absolute;
   top: 830px;
   right: 0px;
   width: 900px;
   z-index: -2;
 }
-
-
-
-
