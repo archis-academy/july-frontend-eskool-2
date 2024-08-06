@@ -1,52 +1,72 @@
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
   background-color: #282828;
   color: rgb(252, 246, 246);
   font-size: 25px;
-  margin-top: 50px;
-  display: flex;
-  top: 100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
 }
 
 .resim {
   display: block;
-  margin-top: 50px;
   left: 40px;
 }
-.resim2 {
-  position: absolute;
-  margin-top: 40px;
-  width: 899px;
-  height: 568px;
-  top: 315px;
-  
+.hero-section .picture-big {
+  position: relative;
+  align-self: flex-start;
+  width: 50%;
+}
+
+.sectionnn {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 261px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navigation-ve-icon {
+  display: flex;
+  margin-inline: 5%;
+  justify-content: space-between;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-top: 200px;
+}
+
+.text-ve-buton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .nav-el1 {
-  display: flex;
-  position: absolute;
-  right: 600px;
-  top: 110px;
 }
 .nav-el2 {
-  display: flex;
-  position: absolute;
-  right: 500px;
-  top: 110px;
+  align-self: flex-start;
+  padding: 20px 40px;
+  border: 1px solid #fe6839;
+  border-radius: 100px;
 }
+
 .nav-el3 {
-  display: flex;
-  position: absolute;
-  right: 400px;
-  top: 110px;
 }
 .nav-el4 {
   display: flex;
-  position: absolute;
-  right: 300px;
-  top: 110px;
 }
 .nav-el5 {
   border: 1px solid #fe6839;
@@ -58,26 +78,14 @@ body {
   top: 90px;
 }
 .icon {
-  position: absolute;
-  right: 670px;
-  top: 115px;
+  padding-right: 20px;
 }
 .paragraf {
-  display: flex;
-  position: absolute;
-  left: 1100px;
-  top: 300px;
-  width: 723.95px;
-  height: 142px;
   font-weight: 600;
   font-size: 58.93px;
   line-height: 70.71px;
 }
 .paragraf2 {
-  display: flex;
-  position: absolute;
-  width: 382px;
-  height: 90px;
   font-weight: 400;
   size: 18px;
   line-height: 30px;
@@ -85,80 +93,75 @@ body {
   top: 500px;
 }
 .button-now {
-  display: flex;
-  position: absolute;
-  right: 610px;
-  top: 650px;
+  align-self: flex-start;
+  padding: 20px 40px;
   border: 1px solid #fe6839;
-  padding: 20px;
   border-radius: 100px;
 }
 .image-blur {
   display: flex;
   position: absolute;
-  width: 196px;
-  height: 432px;
-  top: 250px;
-  left: -300px;
+  top: -100px;
   border-radius: 10px;
   backdrop-filter: blur(5px);
   z-index: 2;
-opacity: 0.8;
+  opacity: 0.8;
 }
 .vector {
-  display: flex;
   position: absolute;
-  width: 186.75px;
-  height: 1086px;
   left: 771px;
   border: none solid #fe6839;
-  top: 1px;
+  top: 0px;
+  z-index: -5;
 }
 .blur2 {
-  display: flex;
   position: absolute;
   box-shadow: 2.8px 2.8px 5.6px 0px rgba(255, 255, 255, 0.7) inset;
-
   box-shadow: -2.8px -2.8px 5.6px 0px rgba(0, 0, 0, 0.1) inset;
-  width: 219px;
-  height: 227px;
-  top: 759px;
-  left: 784px;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
   border-radius: 140.11px;
   opacity: 1;
   z-index: 2;
-
 }
 span {
   color: rgba(254, 104, 57, 1);
 }
-.aset-image{
-  display: flex;
+.aset-image {
   position: absolute;
-  width: 1171px;
-  height: 1171px;
   opacity: 30%;
-  right: 100px;
+  bottom: 0;
+  right: 0;
+  z-index: -3;
 }
-.image-right{
-  display: flex;
+.image-right {
   position: absolute;
-  width: 431px;
-  height: 447px;
   border-radius: 140.11px;
-  top: 735px;
-  right: -50px;
+
+  right: 0px;
+  bottom: 0px;
   opacity: 1;
-  z-index: 2;
-  
+  z-index: -4;
 }
-.vector3{
-  display: flex;
+.vector3 {
   position: absolute;
-  width: 572px;
-  height: 806.5px;
   border: 1.5px;
-  motion-rotation: 2.66°;
-  right: 15px;
-  top: 250px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+}
+
+@media (max-width: 1350px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .navigation-ve-icon {
+    flex-wrap: wrap;
+  }
+
+  .text-ve-buton {
+    max-width: 60ch;
+  }
 }
