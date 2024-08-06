@@ -4,18 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f2f2f2;
-}
-
-.container-2img {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  top: 20px;
-  left: -20px;
-}
-
 /*=====testimonial-section====*/
 .testimonials-section {
   max-width: 1917px;
@@ -28,6 +16,13 @@ body {
   align-items: center;
   gap: 20px;
   padding-block: 100px;
+}
+.testimonials-section-title-comman {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  left: -20px;
 }
 .testimonials-section-imge {
   display: block;
@@ -49,22 +44,22 @@ body {
   border: 80px solid rgba(255, 255, 255, 0.09);
 }
 .testimonials-section-imge-asset {
+  position: absolute;
+  top: 250px;
+  left: -90px;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.09);
-  position: absolute;
-  top: 250px;
-  left: -90px;
 }
 .testimonials-section-title {
   position: relative;
   left: 50px;
 }
 .testimonials-section-subtitle {
-  font-family: Syne;
+  font-family: "Syne, sans-serif";
   font-size: 35px;
   text-align: left;
   position: relative;
@@ -102,10 +97,10 @@ body {
   z-index: -1;
   overflow: hidden;
   top: 0px;
-  left: -150px;
+  left: 0px;
 }
 .testimonials-section-vector-bottom {
-overflow: hidden;
+  overflow: hidden;
   position: absolute;
   bottom: 0px;
   right: 0px;
