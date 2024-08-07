@@ -6,9 +6,8 @@
 
 /*=====testimonial-section====*/
 .testimonials-section {
-  max-width: 1917px;
+  max-width: 1920px;
   position: relative;
-  overflow: hidden;
 }
 .testimonials-section-mast {
   display: flex;
@@ -16,13 +15,6 @@
   align-items: center;
   gap: 20px;
   padding-block: 100px;
-}
-.testimonials-section-title-comman {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  top: 20px;
-  left: -20px;
 }
 .testimonials-section-imge {
   display: block;
@@ -59,48 +51,51 @@
   left: 50px;
 }
 .testimonials-section-subtitle {
-  font-family: "Syne, sans-serif";
+  font-family: "Syne", sans-serif;
   font-size: 35px;
-  text-align: left;
-  position: relative;
   margin-top: 50px;
-  max-width: 30ch;
+  max-width: 700px;
 }
-.testimonials-section-title-comman-one {
-  opacity: 0.05px;
+.testimonials-section-title-comman {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  opacity:97%;
 }
-.testimonials-section-title-comman-two {
-  opacity: 0.05px;
-}
-.testimonials-section-title-btn-left {
+.testimonials-section-title-btn{
+  max-width: 128px;
+  display: flex;
+  gap: 20px;
   position: relative;
+  top: 95px;
+  cursor: pointer;
+}
+  /*iki buton için ayrı ayrı değerler mevcut. tek değerde toplayamadım*/
+.testimonials-section-title-btn-left {
   border: 2px solid #8d8d8d;
   border-radius: 100%;
   width: 54px;
   height: 54px;
-  top: 90px;
-  left: 0px;
   cursor: pointer;
 }
 .testimonials-section-title-btn-right {
-  position: relative;
   border: 2px solid #8d8d8d;
   border-radius: 100%;
   width: 54px;
   height: 54px;
-  top: 90px;
-  left: 10px;
   cursor: pointer;
 }
 .testimonials-section-vector-left {
   position: absolute;
   z-index: -1;
-  overflow: hidden;
-  top: 0px;
-  left: 0px;
+  top: -20px;
+  left: -60px;
 }
 .testimonials-section-vector-bottom {
-  overflow: hidden;
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -108,35 +103,33 @@
 }
 /*=====testimonial-section====*/
 
-
-.strategies-section li{
+.strategies-section li {
   list-style-type: none;
 }
 
-.strategies-section .sayi{
+.strategies-section .sayi {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 30px;
-  line-height: 45Px;
-  color: #C2C2C2;
+  line-height: 45px;
+  color: #c2c2c2;
   margin-right: 26px;
-
 }
 
-.strategies-section{
+.strategies-section {
   display: flex;
   max-width: 1920px;
   width: 100%;
   height: 818px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 
-.strategies-section .img{
+.strategies-section .img {
   width: 964px;
   height: 818px;
 }
 
-.strategies-section .content{
+.strategies-section .content {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -144,7 +137,7 @@
   margin-top: 118px;
 }
 
-.strategies-section .title{
+.strategies-section .title {
   font-family: "Syne", sans-serif;
   font-weight: 600;
   font-size: 44px;
@@ -153,7 +146,7 @@
   width: 20ch;
 }
 
-.strategies-section .description{
+.strategies-section .description {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -162,19 +155,17 @@
   width: 48ch;
 }
 
-.strategies-section .description-box{
+.strategies-section .description-box {
   display: flex;
 }
 
-.strategies-section .alan{
+.strategies-section .alan {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-
-
-.strategies-section .learn-more-button{
+.strategies-section .learn-more-button {
   border-radius: 50px;
   background-color: transparent;
   border: 1px solid rgba(40, 40, 40, 1);
@@ -185,5 +176,4 @@
   font-size: 20px;
   align-self: flex-start;
   font-family: "Poppins", sans-serif;
-  
 }
