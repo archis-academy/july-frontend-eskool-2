@@ -64,9 +64,9 @@
   position: absolute;
   top: 20px;
   left: -20px;
-  opacity:97%;
+  opacity: 97%;
 }
-.testimonials-section-title-btn{
+.testimonials-section-title-btn {
   max-width: 128px;
   display: flex;
   gap: 20px;
@@ -74,15 +74,8 @@
   top: 95px;
   cursor: pointer;
 }
-  /*iki buton için ayrı ayrı değerler mevcut. tek değerde toplayamadım*/
+.testimonials-section-title-btn-right,
 .testimonials-section-title-btn-left {
-  border: 2px solid #8d8d8d;
-  border-radius: 100%;
-  width: 54px;
-  height: 54px;
-  cursor: pointer;
-}
-.testimonials-section-title-btn-right {
   border: 2px solid #8d8d8d;
   border-radius: 100%;
   width: 54px;
