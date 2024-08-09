@@ -206,3 +206,56 @@
   width: 900px;
   z-index: -2;
 }
+
+@media (max-width: 768px) {
+
+  .aboutus-section .aboutone {
+    width: 100%;
+  }
+
+  .aboutus-section .title {
+    font-size: 20px;
+  }
+
+  .aboutus-section .container {
+    width: 100%;
+    margin-top: 480px;
+    flex-direction: column;
+  }
+
+  .aboutus-section .button2 {
+    margin-bottom: 50px;
+  }
+
+  .aboutus-section .cizgi {
+    position: absolute;
+    left: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .aboutus-section .aboutone {
+    width: 100%;
+  }
+
+  .aboutus-section .title {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  .aboutus-section .cizgi {
+    position: absolute;
+    left: 450px;
+  }
+
+  .aboutus-section .container {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 480px;
+  }
+
+  .aboutus-section .button2 {
+    margin-bottom: 50px;
+  }
+
+}
