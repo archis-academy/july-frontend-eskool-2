@@ -1,167 +1,110 @@
-body {
-  background-color: #282828;
-  color: rgb(252, 246, 246);
-  font-size: 25px;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 * {
   margin: 0;
+  padding: 0;
+  background: #282828;
+  margin-top: 25px;
 }
 
-.resim {
-  display: block;
-  left: 40px;
-}
-.hero-section .picture-big {
-  position: relative;
-  align-self: flex-start;
-  width: 50%;
-}
-
-.sectionnn {
-  position: relative;
-  z-index: 1;
-  padding-bottom: 261px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.navigation-ve-icon {
+.hero-section .navigation-icon {
   display: flex;
   margin-inline: 5%;
   justify-content: space-between;
 }
-
-.hero-section {
+.hero-section .image-writing {
   display: flex;
   justify-content: flex-start;
   gap: 100px;
   margin-top: 200px;
 }
 
-.text-ve-buton {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.nav-el1 {
-}
-.nav-el2 {
+.hero-section .visual {
+  position: relative;
   align-self: flex-start;
+  width: 50%;
+  height: 568px;
+}
+.hero-section .writing-button {
   padding: 20px 40px;
   border: 1px solid #fe6839;
   border-radius: 100px;
+  color: #f9f9f9;
+  font-family: sans-serif;
 }
-
-.nav-el3 {
-}
-.nav-el4 {
+.hero-section .writing-nav {
   display: flex;
-}
-.nav-el5 {
-  border: 1px solid #fe6839;
-  padding: 20px;
-  border-radius: 100px;
-  display: flex;
-  position: absolute;
-  right: 100px;
-  top: 90px;
-}
-.icon {
-  padding-right: 20px;
-}
-.paragraf {
-  font-weight: 600;
-  font-size: 58.93px;
-  line-height: 70.71px;
-}
-.paragraf2 {
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  font-size: 20px;
   font-weight: 400;
-  size: 18px;
   line-height: 30px;
-  right: 400px;
-  top: 500px;
+  text-align: left;
+  font-family: sans-serif;
+  color: #f9f9f9;
 }
-.button-now {
-  align-self: flex-start;
-  padding: 20px 40px;
-  border: 1px solid #fe6839;
-  border-radius: 100px;
-}
-.image-blur {
+.hero-section .writing-home {
+  font-family: sans-serif;
+  text-align: left;
+  color: #f9f9f9;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-section .writing-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-section .visual-blur {
   position: absolute;
-  top: -100px;
+  top: 265px;
+  left: -100px;
   border-radius: 10px;
   backdrop-filter: blur(5px);
   z-index: 2;
-  opacity: 0.8;
+  opacity: 0, 8;
 }
-.vector {
+.hero-section .visual-blur-two {
   position: absolute;
-  left: 771px;
-  border: none solid #fe6839;
-  top: 0px;
-  z-index: -5;
-}
-.blur2 {
-  position: absolute;
-  box-shadow: 2.8px 2.8px 5.6px 0px rgba(255, 255, 255, 0.7) inset;
-  box-shadow: -2.8px -2.8px 5.6px 0px rgba(0, 0, 0, 0.1) inset;
   bottom: 0;
-  right: 0;
-  transform: translate(50%, 50%);
-  border-radius: 140.11px;
-  opacity: 1;
-  z-index: 2;
+}
+.hero-section .text-first {
+  width: 723.95px;
+  height: 142px;
+  font-family: Syne;
+  font-size: 58.93px;
+  font-weight: 600;
+  line-height: 70.71px;
+  text-align: left;
+  color: #f9f9f9;
+}
+.hero-section .text-two {
+  color: #f9f9f9;
+  width: 382px;
+  height: 90px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
 }
 span {
   color: rgba(254, 104, 57, 1);
 }
-.aset-image {
-  position: absolute;
-  opacity: 30%;
-  bottom: 0;
-  right: 0;
-  z-index: -3;
+.hero-section .text-contact {
+  padding: 20px 40px;
+  border: 1px solid #fe6839;
+  border-radius: 100px;
+  color: #f9f9f9;
 }
-.image-right {
+.hero-section .image-position{
+  display: flex;
   position: absolute;
-  border-radius: 140.11px;
-
-  right: 0px;
-  bottom: 0px;
-  opacity: 1;
-  z-index: -4;
+  margin-top: 300px;
+right: 0;
 }
-.vector3 {
+.hero-section .image-position-two{
+  display: flex;
   position: absolute;
-  border: 1.5px;
-  right: 0px;
-  bottom: 0px;
-  z-index: -5;
-}
-
-@media (max-width: 1350px) {
-  .hero-section {
-    flex-direction: column;
-  }
-
-  .navigation-ve-icon {
-    flex-wrap: wrap;
-  }
-
-  .text-ve-buton {
-    max-width: 60ch;
-  }
+  margin-top: 500px;
+  right: 100px;
+  z-index: 0;
 }
