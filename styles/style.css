@@ -83,64 +83,51 @@
 
 .benefits-section {
   max-width: 1920px;
-  padding: 90px 80px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 35px;
+  height: 416px;
   background-color: rgba(227, 227, 227, 0.792);
 }
 .benefits-section-title {
-  padding: 0px 0px 60px;
-  max-width: 500px;
+  padding: 40px 0 60px 60px;
   font-family: "Syne", sans-serif;
-  font-size: 34px;
+  font-weight: 500px;
+  font-size: 35px;
   line-height: 54px;
 }
 .benefits-section-clander,
 .benefits-section-container {
-  position: relative;
-  left: 80px;
   display: flex;
+  gap: 25px;
+  justify-content: space-around;
+}
+.card-text-content {
+  margin-left: 10px;
 }
 .benefits-section-num {
-  position: relative;
-  top: -40px;
-  left: -30px;
+  /*numaraları nasıl yukarı alacağım konusunda kararsız kaldım.Buyüzden margin-top değerini verdim*/
+  margin-top: -20px;
   font-family: "Syne", sans-serif;
+  font-weight: 600px;
+  line-height: 119px;
   font-size: 99.17px;
   color: #fe6839;
 }
 .benefits-section-subtitle-content {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: space-around;
 }
-.benefits-section-header,
-.benefits-section-header-three {
+.benefits-section-header {
   font-family: "Syne", sans-serif;
-  position: relative;
-  left: 20px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 36px;
 }
-.benefits-section-sub,
-.benefits-section-subtwo,
-.benefits-section-subthree {
-  font-family:sans-serif;
+.benefits-section-sub {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500px;
   line-height: 30px;
-  font-size: 17px;
-  position: relative;
-  top: 45px;
-  left: -110px;
-  width: 150px;
+  font-size: 18px;
+  width: 200px;
 }
 
-.benefits-section-subtwo {
-  left: -140px;
-}
-
-.benefits-section-header-three {
-  width: 332px;
-}
-.benefits-section-subthree {
-left: -300px;
-  
-}
 /*====benefits-section==*/
