@@ -21,6 +21,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  gap: 30px;
   align-items: center;
   height: 725px;
   font-family: "Syne", sans-serif;
@@ -39,7 +40,6 @@
 .aboutus-section .item {
   width: 424px;
   height: 474px;
-  margin: 22px;
   display: flex;
   justify-content: center;
   border-radius: 15px;
@@ -154,7 +154,8 @@
 }
 
 .aboutus-section .div-middle {
-  background-color: #FE6839
+  background-color: #FE6839;
+  position: relative;
 }
 
 .aboutus-section .divfoto {
@@ -179,7 +180,8 @@
 }
 
 .aboutus-section .divfoto4 {
-  margin-left: 20px;
+  position: absolute;
+  right: 0px;
 }
 
 .aboutus-section .divfoto5 {
