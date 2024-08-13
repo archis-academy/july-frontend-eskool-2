@@ -177,25 +177,5 @@ span {
 
 }
 
-@media (max-width: 1000px) {
-  .hero-section .image-writing {
-    flex-direction: column;
-  }
 
-  .hero-section .text-button {
-    max-width: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .hero-section .visual img:first-child {
-    min-width: 0px;
-  }
-}
-@media (max-width: 1000px) {
-  .hero-section .image-position-five{
-    flex-direction: column;
-  }
   
-}
-
