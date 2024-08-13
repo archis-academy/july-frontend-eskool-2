@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .aboutus-section {
   max-width: 1920px;
   width: 100%;
@@ -13,7 +12,7 @@
 .aboutus-section .aboutone {
   display: flex;
   height: 355px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   font-family: "Syne", sans-serif;
 }
 
@@ -29,7 +28,7 @@
 .aboutus-section .item2 {
   width: 300px;
   height: 300px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   margin: 22px;
   display: flex;
   flex-direction: column;
@@ -85,7 +84,7 @@
   margin-top: 370px;
   margin-right: 140px;
   font-size: 17px;
-  border: 1px solid #FE6839;
+  border: 1px solid #fe6839;
   color: #ffff;
   border-radius: 30px;
   background: none;
@@ -150,11 +149,11 @@
 }
 
 .aboutus-section .div-left {
-  background-color: #EAEAEA
+  background-color: #eaeaea;
 }
 
 .aboutus-section .div-middle {
-  background-color: #FE6839
+  background-color: #fe6839;
 }
 
 .aboutus-section .divfoto {
@@ -206,6 +205,53 @@
   width: 900px;
   z-index: -2;
 }
+/*====benefits-section==*/
+
+.benefits-section {
+  max-width: 1920px;
+  height: 416px;
+  background-color: rgba(227, 227, 227, 0.792);
+}
+.benefits-section-title {
+  padding: 40px 0 60px 60px;
+  font-family: "Syne", sans-serif;
+  font-size: 35px;
+  line-height: 54px;
+}
+.benefits-section-clander,
+.benefits-section-container {
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+}
+.card-text-content {
+  margin-left: 10px;
+}
+.benefits-section-num {
+  margin-top: -20px;
+  font-family: "Syne", sans-serif;
+
+  line-height: 119px;
+  font-size: 99.17px;
+  color: #fe6839;
+}
+.benefits-section-subtitle-content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.benefits-section-header {
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+}
+.benefits-section-sub {
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  width: 200px;
+}
+/*====benefits-section==*/
 
 .strategies-section li {
   list-style-type: none;
@@ -416,4 +462,3 @@
     width: 30ch;
   }
 }
-
