@@ -28,7 +28,6 @@
 
 .aboutus-section .item2 {
   width: 300px;
-  height: 300px;
   background-color: #EAEAEA;
   margin: 22px;
   display: flex;
@@ -109,6 +108,8 @@
   width: 285px;
   height: 167px;
   color: #282828;
+  position: relative;
+  z-index: 3;
 }
 
 .aboutus-section .titlethere {
@@ -207,55 +208,680 @@
   z-index: -2;
 }
 
-@media (max-width: 768px) {
-
-  .aboutus-section .aboutone {
-    width: 100%;
+@media screen and (max-width: 1500px) {
+  .aboutus-section .title {
+    font-size: 30px;
   }
 
+  .aboutus-section .aboutone {
+    height: 260px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 50px;
+  }
+
+  .aboutus-section .item {
+    width: 350px;
+    height: 370px;
+
+  }
+
+  .aboutus-section .div-right {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 80px;
+  }
+
+  .aboutus-section .button3,.aboutus-section .button4 {
+    margin-top: 290px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-left: -50px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 170px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 350px;
+    right: 10px;
+  }
+
+  .aboutus-section .container {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .aboutus-section .title {
+    font-size: 24px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 30px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 80px;
+  }
+
+  .aboutus-section .div-there {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 1040px) {
+  .aboutus-section .title {
+    font-size: 24px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 30px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 80px;
+    flex-wrap: wrap;
+  }
+
+  .aboutus-section .div-there {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 970px) {
   .aboutus-section .title {
     font-size: 20px;
   }
 
-  .aboutus-section .container {
-    width: 100%;
-    margin-top: 480px;
-    flex-direction: column;
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 20px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
   }
 
   .aboutus-section .button2 {
-    margin-bottom: 50px;
+    margin-top: 0px;
   }
 
-  .aboutus-section .cizgi {
-    position: absolute;
-    left: 0px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .aboutus-section .aboutone {
-    width: 100%;
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
   }
 
-  .aboutus-section .title {
-    font-size: 30px;
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
     width: 300px;
   }
 
-  .aboutus-section .cizgi {
-    position: absolute;
-    left: 450px;
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
   }
 
   .aboutus-section .container {
-    width: 100%;
-    flex-direction: column;
-    margin-top: 480px;
+    height: unset;
+    padding-block: 80px;
+  }
+
+  .aboutus-section .div-there {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 880px) {
+  .aboutus-section .title {
+    font-size: 18px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 0px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
   }
 
   .aboutus-section .button2 {
-    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 60px;
+  }
+
+  .aboutus-section .div-there {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+  .aboutus-section .title {
+    font-size: 16px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 60px;
+  }
+
+  .aboutus-section .div-there {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  .aboutus-section .title {
+    font-size: 16px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: 15px;
+    font-size: 13px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 60px;
+    flex-direction: column;
+  }
+
+  .aboutus-section .div-there {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .aboutus-section .title {
+    font-size: 16px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: -15px;
+    font-size: 13px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 60px;
+    flex-direction: column;
+  }
+
+  .aboutus-section .div-there {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+  .aboutus-section .title {
+    font-size: 14px;
+  }
+
+  .aboutus-section .aboutone {
+    height: 220px;
+  }
+
+  .aboutus-section .about {
+    margin-left: -15px;
+    font-size: 13px;
+  }
+
+  .aboutus-section .item {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .aboutus-section .div-right {
+    position: relative;
+  }
+
+  .aboutus-section .button2 {
+    margin-top: 0px;
+  }
+
+  .aboutus-section .button3, .aboutus-section .button4 {
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .aboutus-section .divfoto2 {
+    margin-top: 20px;
+  }
+
+  .aboutus-section .divfoto3 {
+    margin-right: 180px;
+  }
+
+  .aboutus-section .titletwo {
+    font-size: 22px;
+    width: 240px;
+  }
+
+  .aboutus-section .titlethere{
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 22px;
+  }
+
+  .aboutus-section .titlefour{
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+
+  .aboutus-section .divfoto5 {
+    width: 300px;
+  }
+
+  .aboutus-section .divfoto6 {
+    width: 300px;
+    right: 0px;
+  }
+
+  .aboutus-section .container {
+    height: unset;
+    padding-block: 60px;
+    flex-direction: column;
+  }
+
+  .aboutus-section .div-there {
+    display: none;
   }
 
 }
