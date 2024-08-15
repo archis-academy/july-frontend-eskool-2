@@ -415,3 +415,134 @@
   align-self: flex-start;
   font-family: "Poppins", sans-serif;
 }
+@media screen and (max-width: 1660px) {
+  .strategies-section .img {
+    width: 800px !important;
+    height: unset;
+  }
+
+  .strategies-section .title {
+    font-size: 38px !important;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .strategies-section .img {
+    width: 600px !important;
+  }
+
+  .strategies-section .title {
+    font-size: 34px !important;
+  }
+
+  .strategies-section .description {
+    font-size: 16px  !important;
+    line-height: 20px !important;
+  }
+
+  .strategies-section .sayi {
+    font-size: 24px !important;
+    line-height: 45px !important;
+    margin-right: 18px !important;
+  }
+
+  .strategies-section .content {
+    gap: 20px  !important;
+    margin-top: 50px !important;
+  }
+
+  .strategies-section .learn-more-button {
+    padding: 16px !important;
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .strategies-section .img {
+    width: 400px !important;
+  }
+
+  .strategies-section .title {
+    font-size: 24px !important;
+  }
+
+  .strategies-section .description {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+
+  .strategies-section .sayi {
+    font-size: 18px !important;
+    line-height: 34px !important;
+    margin-right: 14px !important;
+  }
+
+  .strategies-section .content {
+    gap: 16px !important;
+    margin-top: 10px !important;
+  }
+
+  .strategies-section .learn-more-button {
+    padding: 14px !important;
+    font-size: 12px !important;
+  }
+
+  .strategies-section .alan {
+    gap: 10px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .strategies-section .img {
+    width: 350px !important;
+  }
+
+  .strategies-section .title {
+    font-size: 18px !important;
+    line-height: 18px !important;
+  }
+
+  .strategies-section .description {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    width: 30ch !important;
+  }
+
+  .strategies-section .content {
+    margin-top: 20px !important;
+  }
+
+  .strategies-section .learn-more-button {
+    padding: 12px !important;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .strategies-section .img {
+    width: 100%;
+  }
+
+  .strategies-section .img img {
+    height: 300px !important;
+    object-fit: cover;
+  }
+
+  .strategies-section .description {
+    width: 50ch !important;
+  }
+
+  .strategies-section {
+    flex-direction: column;
+  }
+
+  .strategies-section .content {
+    margin: 30px auto!important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .strategies-section .description {
+    width: 30ch !important;
+  }
+}
