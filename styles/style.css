@@ -641,6 +641,7 @@
   .aboutus-section .container {
     height: unset;
     padding-block: 60px;
+    overflow: hidden;
   }
 
   .aboutus-section .div-there {
