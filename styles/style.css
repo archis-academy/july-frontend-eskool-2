@@ -1196,6 +1196,8 @@ z-index: -0;
   }
 
 }
+
+
 /*====benefits-section==*/
 
 .benefits-section {
@@ -1218,10 +1220,13 @@ z-index: -0;
 .card-text-content {
   margin-left: 10px;
 }
+.benefits-section-vector {
+  color: #282828;
+  opacity: 50%;
+}
 .benefits-section-num {
   margin-top: -20px;
   font-family: "Syne", sans-serif;
-
   line-height: 119px;
   font-size: 99.17px;
   color: #fe6839;
@@ -1242,6 +1247,89 @@ z-index: -0;
   font-size: 18px;
   width: 200px;
 }
+
+/*==benefits-responsive==*/
+@media screen and (max-width: 1600px) {
+  .benefits-section-title {
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .benefits-section {
+    height: 316px;
+  }
+  .benefits-section-vector {
+    height: 130px;
+  }
+  .benefits-section-num {
+    line-height: 50px;
+    font-size: 50px;
+    margin-top: 2px;
+  }
+  .benefits-section-header {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .benefits-section-sub {
+    line-height: 30px;
+    font-size: 10px;
+    width: 100px;
+  }
+  .benefits-section-title {
+    padding: 30px 0 50px 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 965px) {
+  .benefits-section-vector {
+    height: 90px;
+  }
+  .benefits-section-num {
+    line-height: 45px;
+    font-size: 45px;
+  }
+  .benefits-section-header {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .benefits-section-sub {
+    line-height: 25px;
+    font-size: 10px;
+  }
+  .benefits-section-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .benefits-section-vector {
+    height: 100px;
+  }
+  .benefits-section-container {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .benefits-section-title {
+    margin-left: 60px;
+    padding: 50px 0 50px 0 ;
+    max-width:350px;
+  }
+
+  .benefits-section-clander {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-section-container {
+    gap: 10px;
+  }
+  .benefits-section {
+    height: 566px;
+  }
+}
+
 /*====benefits-section==*/
 
 .strategies-section li {
