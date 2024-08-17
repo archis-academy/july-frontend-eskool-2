@@ -751,7 +751,7 @@
 
 @media screen and (max-width: 856px) {
   .new-section {
-    height: 600px;
+    height: 900px;
     padding-block: 90px;
   }
 
@@ -782,7 +782,7 @@
 
 @media screen and (max-width: 600px) {
   .new-section {
-    height: 1300px;
+    height: 1250px;
     padding-block: 70px;
   }
 
