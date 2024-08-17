@@ -77,10 +77,11 @@
   cursor: pointer;
 }
 .testimonials-section-vector-left {
+  display: block;
   position: absolute;
   z-index: -1;
-  top: -20px;
-  left: -60px;
+  top: 0px;
+  left: 0px;
 }
 .testimonials-section-vector-bottom {
   display: block;
@@ -94,35 +95,19 @@
     flex-direction: column;
     text-align: center;
   }
-}
-@media screen and (max-width: 1500px) {
-  .testimonials-section-sub {
-    max-width: 400px;
-    line-height: 20px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .testimonials-section-sub {
-    max-width: 200px;
-    line-height: 15px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .testimonials-section-sub {
-    max-width: 300px;
-  }
-}
-@media screen and (max-width: 1140px) {
   .testimonials-section-title-btn {
     position: relative;
     top: 20px;
     left: 250px;
   }
-}
-
-@media screen and (max-width: 1140px) {
   .testimonials-section-vector-bottom {
     display: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .testimonials-section-sub {
+    max-width: 400px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 780px) {
@@ -135,6 +120,22 @@
   .testimonials-section-imge-circle {
     border: 60px solid rgba(255, 255, 255, 0.09);
   }
+  .testimonials-section-vector-left {
+    display: none;
+  }
+  .testimonials-section-title {
+    font-size: 25px;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .testimonials-section-sub {
+    max-width: 200px;
+    line-height: 15px;
+  }
+  .testimonials-section-sub {
+    max-width: 300px;
+  }
 }
 @media screen and (max-width: 650px) {
   .testimonials-section-imge-man {
@@ -143,8 +144,23 @@
   .testimonials-section-imge-asset {
     display: none;
   }
+}
+
+@media screen and (max-width: 470px) {
+  .testimonials-section-imge-man {
+    width: 250px;
+  }
   .testimonials-section-imge-circle {
     border: none;
+  }
+  .testimonials-section-title-btn {
+    position: relative;
+    top: 20px;
+    left: 120px;
+  }
+  .testimonials-section-title {
+    font-size: 20px;
+    max-width: 400px;
   }
 }
 
