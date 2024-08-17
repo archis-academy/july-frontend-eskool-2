@@ -1315,7 +1315,7 @@ z-index: -0;
   .benefits-section-title {
     margin-left: 60px;
     padding: 50px 0 50px 0 ;
-    width: 350px;
+    max-width:350px;
   }
 
   .benefits-section-clander {
