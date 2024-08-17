@@ -133,7 +133,7 @@ padding-inline: 50px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
 }
-span {
+.hero-section span {
   color: rgba(254, 104, 57, 1);
 }
 .hero-section .text-contact {
